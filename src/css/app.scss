@@ -1,1 +1,225 @@
 // app global css in SCSS form
+#q-app{
+    font-family: "Nunito Sans", sans-serif;
+}
+.main-login-bg{
+    background-image: url("../../src/assets/myhhub-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    float: left;
+
+    @media(max-width:1024px){
+        background-image: none;
+    }
+  }
+  img.logo-main{
+  width: 350px;
+  }
+  .login-left-section{
+      float: left;
+      width: 60%;
+
+      @media(max-width:1024px){
+          display:none;
+      }
+  }
+  .login-left-section img{
+      margin: 0 auto;
+  }
+
+  .login-right-section{
+      float: right;
+      width: 40%;
+      background: rgb(12,105,158);
+      background: linear-gradient(270deg, rgba(12,105,158,1) 96%, rgba(18,76,110,1) 100%);
+      color:#fff;
+      padding: 50px;
+      font-weight: 300;
+
+      @media(max-width:1024px){
+        width:90%;
+        margin: 0 auto;
+        float: none;
+        height: 100%!important;
+        background: rgb(12,105,158);
+background: linear-gradient(270deg, rgba(12,105,158,1) 100%, rgba(18,76,110,1) 100%);
+    }
+  }
+
+  .login-title-section{
+      font-size: 35px;
+      margin: 40px 0 20px;
+      font-weight: 300;
+      color:#fff;
+
+      @media(max-width:1024px){
+          margin-top:10px ;
+      }
+  }
+
+  .login-right-section p{
+      font-size: 16px;
+      color:#fff;
+  }
+
+  .custom-placeholder input::placeholder {
+    color: white; 
+    opacity: 1; 
+  }
+
+  .login-form-login{
+      margin-top: 100px;
+
+      @media(max-width:1024px){
+          margin-top: 50px;
+      }
+  }
+
+  .login-buttons{
+      margin-top: 60px;
+  }
+  .login-buttons button.main-button-login{
+      width: 100%;
+  }
+  .content-links-login{
+      width: 50%;
+      float: left;
+      margin-top: 30px;
+  }
+
+  .loggin-toggle-container{
+      margin-top: 60px;
+      float: left;
+      width: 100%;
+  }
+  .loggin-toggle-container p{
+      margin-bottom: 0px;
+  }
+.login-subtitle{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.login-error-message{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+
+.main-registration-bg{
+    background-image: url("../../src/assets/myhhub-registration-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.register-left-section{
+    float: left;
+    width: 60%;
+    background: rgb(12,105,158);
+    background: linear-gradient(90deg, rgba(12,105,158,1) 96%, rgba(18,76,110,1) 100%);
+      color:#fff;
+      padding: 20px 50px;
+      font-weight: 300;
+      height: 100%;
+      @media(max-width:1024px){
+        width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+        float: none;
+        height: 100%!important;
+        background: rgb(12,105,158);
+background: linear-gradient(270deg, rgba(12,105,158,1) 100%, rgba(18,76,110,1) 100%);
+
+        .login-title-section{
+            margin-top: 20px;
+        }
+    }
+    
+}
+.register-right-section img{
+    margin: 0 auto;
+}
+
+.register-right-section{
+    float: right;
+    width: 40%;
+
+    @media(max-width:1024px){
+        display: none;
+    }
+}
+.register-right-section form{
+width: 100%;
+}
+.register-form-container{
+    width: 100%;
+}
+.register-group-inputs{
+    width: 100%;
+    float: left;
+}
+.register-group-inputs input{
+    display: inline;
+    width: 50%;
+}
+
+.register-form{
+    margin-top: 50px;
+}
+.register-form .register-row-form{
+    width: 100%;
+    margin-bottom: 0;
+
+    @media(max-width:1024px){
+        margin:5px;
+    }
+}
+.register-form .register-row-form div{
+    padding: 0 5px;
+}
+.register-form input{
+    width: 100%;
+}
+.register-form   .login-buttons{
+    margin-top: 20px;
+
+    button{
+        min-width: 250px;
+
+        @media(max-width:600px){
+            min-width: 200px
+        }
+        @media(max-width:450px){
+            min-width: 150px
+        }
+    }
+}
+.top-mobile{
+    display: none;
+    width: 100%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+
+    img{
+        width: 100%;
+        max-width: 150px;
+    }
+    @media (max-width:1024px){
+        display: block;
+    }
+}
+.blue-container-bg{
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    background: #0C699E;
+    
+
+}
