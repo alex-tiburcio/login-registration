@@ -18,6 +18,10 @@ npm install
 quasar dev
 ```
 
+### See the pages
+/login
+/registration
+
 
 ### Lint the files
 ```bash
