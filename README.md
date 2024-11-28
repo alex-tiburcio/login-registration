@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+
 # login-registration
 Login, and new patients tab
-=======
+
 # Quasar App (quasar-project)
 
 A Quasar Project
