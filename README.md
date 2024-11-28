@@ -19,8 +19,11 @@ quasar dev
 ```
 
 ### See the pages
+```bash
 /login
+# and
 /registration
+```
 
 
 ### Lint the files
